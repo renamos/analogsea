@@ -1,0 +1,91 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+    background-color: #298EEA;
+    font-family: 'Roboto', sans-serif;
+}
+
+header img {
+    height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+.sign-up-box {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.sign-up-box h1 {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 200;
+}
+
+.sign-up-form label, .sign-up-form input {
+    display: block;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 15px;
+}
+
+input[type=email], input[type=password] {
+    width: 320px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 2px solid #E5E5E5;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-form button {
+    width: 320px;
+    font-size: 16px;
+    color: white;
+    height: 55px;
+    margin: 15px;
+    margin-bottom: 0;
+    background-color: #68C373;
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-decoration: underline;
+    color: #5F5F5F;
+margin-left: 135px;
+    
+}
+
+footer, footer a {
+    color: #FFFFFF;
+    text-align: center;
+}
